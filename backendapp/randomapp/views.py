@@ -21,7 +21,7 @@ def random_paragraph(request):
         "Version control helps teams collaborate effectively.",
         "Databases store and organize your data.",
         "Security should always be a priority.",
-        "User experience determines application success."
+        "User experience determines application successsssss."
     ]
     
     # Select 10 random sentences
