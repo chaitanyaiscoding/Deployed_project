@@ -11,7 +11,7 @@ function App() {
     setLoading(true)
     setError('')
     try {
-      const response = await fetch('http://localhost:8000/api/random-paragraph/')
+      const response = await fetch('api/random-paragraph/')
       if (!response.ok) {
         throw new Error('Failed to fetch paragraph')
       }
